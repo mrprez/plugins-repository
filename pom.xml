@@ -22,7 +22,71 @@
 	
 	
 	<dependencies>
+		<dependency>
+			<groupId>com.mrprez.gencross.plugins</groupId>
+			<artifactId>bsg</artifactId>
+			<version>1.7</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mrprez.gencross.plugins</groupId>
+			<artifactId>changelin</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mrprez.gencross.plugins</groupId>
+			<artifactId>ins</artifactId>
+			<version>1.9</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mrprez.gencross.plugins</groupId>
+			<artifactId>insCustom</artifactId>
+			<version>2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mrprez.gencross.plugins</groupId>
+			<artifactId>mdt</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mrprez.gencross.plugins</groupId>
+			<artifactId>mv</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mrprez.gencross.plugins</groupId>
+			<artifactId>polarisPerso</artifactId>
+			<version>1.5</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mrprez.gencross.plugins</groupId>
+			<artifactId>tiersAge</artifactId>
+			<version>1.5</version>
+		</dependency>
+		
 		
 	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.4</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<configuration>
+							<descriptors>
+								<descriptor>assembly.xml</descriptor>
+							</descriptors>
+						</configuration>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+			   </executions>
+			</plugin>
+		</plugins>
+	
+	</build>
 	
 </project>
