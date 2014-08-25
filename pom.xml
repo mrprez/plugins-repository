@@ -11,7 +11,7 @@
 	<parent>
 		<artifactId>mrprez</artifactId>
 		<groupId>com.mrprez</groupId>
-		<version>1.0</version>
+		<version>1.5-SNAPSHOT</version>
 	</parent>
 	
 	<scm>
@@ -65,7 +65,7 @@
 		<dependency>
 			<groupId>com.mrprez.gencross.plugins</groupId>
 			<artifactId>pavillonNoir</artifactId>
-			<version>1.4-SNAPSHOT</version>
+			<version>1.4</version>
 		</dependency>
 		<dependency>
 			<groupId>com.mrprez.gencross.plugins</groupId>
