@@ -65,7 +65,7 @@
 		<dependency>
 			<groupId>com.mrprez.gencross.plugins</groupId>
 			<artifactId>pavillonNoir</artifactId>
-			<version>1.6</version>
+			<version>1.8</version>
 		</dependency>
 		<dependency>
 			<groupId>com.mrprez.gencross.plugins</groupId>
