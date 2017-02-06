@@ -75,7 +75,7 @@
 		<dependency>
 			<groupId>com.mrprez.gencross.plugins</groupId>
 			<artifactId>cops</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0</version>
 		</dependency>
 		
 		
